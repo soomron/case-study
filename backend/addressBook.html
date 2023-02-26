@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" href="addressBook.css">
+	<script src="/addressBook.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Address Book Contacts List</h1>
+		</div>
+		<div class="quickadd"><button id="QuickAdd">+ Add Contact</button></div>
+        
+
+		<div class="quickaddForm">
+			<label for="name">Name</label><input type="text" id="name" class="formFields">
+			<label for="phone">Phone Number</label><input type="text" id="phone" class="formFields">
+			<label for="dob">Date of Birth</label><input type="date" id="dob" class="formFields">
+            <label for="password">Password</label><input type="text" id="password" class="formFields">
+            <br><br>
+			<button id="Add">Add Now</button><button id="Cancel">Cancel</button>
+		</div>
+
+        <div class="table">
+            <table width="100%">
+                <tr>
+                    <td id="_1">Name</td>
+                    <td id="_2">Phone Number</td>
+                    <td id="_3">Date of Birth</td>
+                    <td id="_4">Password</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        
+		<div class="addbook">
+			<div class="entry">
+				<div class="name"><p>John Doe</p></div>
+				<div class="phone"><p>123456789</p></div>
+                <div class="dob"><p>1997-01-01</p></div>
+                <div class="password"><p>pineapple</p></div>
+				<div class="del"><a href="#">Delete</a></div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
